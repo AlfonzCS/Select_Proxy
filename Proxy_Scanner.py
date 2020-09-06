@@ -27,10 +27,10 @@ def Logo():
 
     x = """
    
-    ─┼─┼─╔═╗╔═╗╦  ╔═╗╔═╗╔╦╗  ╔═╗╦═╗╔═╗═╗ ╦╦ ╦─┼─┼─
-    ─┼─┼─╚═╗║╣ ║  ║╣ ║   ║   ╠═╝╠╦╝║ ║╔╩╦╝╚╦╝─┼─┼─
-         ╚═╝╚═╝╩═╝╚═╝╚═╝ ╩   ╩  ╩╚═╚═╝╩ ╚═ ╩      
-       CS! : selecciona los proxys funcionales.       
+    ─┼─┼─╔═╗╦═╗╔═╗═╗ ╦╦ ╦  ╔═╗╔═╗╔═╗╔╗╔╔╗╔╔═╗╦═╗─┼─┼─
+    ─┼─┼─╠═╝╠╦╝║ ║╔╩╦╝╚╦╝  ╚═╗║  ╠═╣║║║║║║║╣ ╠╦╝─┼─┼─
+         ╩  ╩╚═╚═╝╩ ╚═ ╩   ╚═╝╚═╝╩ ╩╝╚╝╝╚╝╚═╝╩╚═     
+         CS! : selecciona los proxys funcionales.       
     """
     for N, line in enumerate(x.split("\n")):
          sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
